@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;1,700&family=Mukta:wght@200&family=Raleway:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Mukta, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D8E6FA ;
+}
+h1 {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: royalblue;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 3rem;
+}
+
+.form-hearder {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-hearder h1::after {
+    content: '';
+    display: block;
+    width: 42%;
+    height: 0.3rem;
+    background-color: royalblue;
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+
+.input-box {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0.1rem;
+    padding-bottom: 0.8rem;
+    padding-left: 0.2rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.input-box input:hover {
+    background-color: #eae9e9;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box input::placeholder {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #000000c0;
+}
+
+button {
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    background-color: royalblue;
+    padding: 0.62rem;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #718ad5;
+}
+
+.button-text {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 900;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.edit {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.input-type {
+    border-radius: 5px;
+    color: black;
+    font-size: 1rem;
+    margin: 5px;
+    border-color: #718ad5;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.link {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
